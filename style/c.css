@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+}
+
+.nav{
+    margin: 10px ;
+    padding: 14px -8px;
+    display: flex;
+
+}
+.nav img{
+    margin: 4px 44px;
+    padding: 10px 14px;
+    width: 140px;
+    height: 130px;
+}
+
+.nav ul{
+/* justify-content: space-around; */
+margin: 0px 14px;
+display: flex;
+
+}
+
+.topBtn{
+
+    border: none;
+    border-radius:4px ;
+    color: white;
+    /* position: absolute; */
+    margin: 50px 20px ;
+    padding: 6px 20px;
+    /* top: 44px;
+    right: 20px; */
+    background-color: #a2a1a5;
+}
+
+
+
+.nav ul li{
+    margin: -3px 2px;
+    list-style: none;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.topBtn:hover{
+  background-color: #5955b3;
+     
+}
+
+#btn1{
+border: none;
+border-radius:4px ;
+color: white;
+position: absolute;
+margin: 15px 60px ;
+padding: 10px 20px;
+top: 44px;
+right: 20px;
+background-color: #5955b3;
+}
+
+
+
+
+.mid{
+    margin: 60px 0px;
+    display: flex;
+    align-content: end;
+}
+.MainImg img{
+position: absolute;
+right: 56px;
+top: 118px;
+width: 708px;
+height: auto;
+}
+
+#btn2{
+    margin: 26px ;
+    margin-right: 300px;
+    padding: 10px 22px;
+    background-color: #5955b3;
+    border: none;
+    border-radius:4px ;
+   color: white;
+   font-size: 16px;
+}
+main div{
+    /* border: 2px solid black; */
+    margin: 36px 98px;
+    margin-right: 20%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: center;
+
+}
+.spn{  color: #5955b3;
+}
+
+div h1{
+    color: #3c2f60;
+    font-size: 47px;
+    padding-left: 140px;
+    padding-right:  300px;
+    
+}
+div p{
+    margin: 20px ;
+    padding-left: 121px; 
+    padding-right:70px ;
+    color: #828282;
+}
+
+#btn1:hover{
+   background-color: #a2a1a5 ;
+   color: black;
+}
+
+#btn2:hover{
+    background-color: #a2a1a5 ;
+    color: black;
+ }
+
+
